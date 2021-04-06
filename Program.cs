@@ -74,7 +74,7 @@ namespace Tictactoa
             board.Draw();
             countMoves++;
 
-            if (countMoves > boarderSize)
+            if (countMoves > boarderSize)//boardsize is the length of row
             {
                 string win = board.Status(countMoves);
                 if (win == "NONE")
